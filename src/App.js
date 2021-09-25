@@ -1,4 +1,6 @@
-import Food from './components/Foods/Food';
+
+import Foods from './components/Foods/Foods';
+import Header from './components/Header/Header';
 
 
 function App() {
@@ -6,8 +8,10 @@ function App() {
 
   return (
     <div>
+      <Header></Header>
+      <Foods></Foods>
 
-      <Food></Food>
+
     </div>
   );
 }
